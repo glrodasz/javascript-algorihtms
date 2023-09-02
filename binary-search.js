@@ -5,9 +5,9 @@ function binarySearch(books, valueToFind, key) {
   while (start <= end) {
     let mid = Math.floor((start + end) / 2);
 
-    if (books[mid][key].toLowerCase() === valueToFind.toLowerCase()) {
+    if (books[mid][key] === valueToFind) {
       return mid;
-    } else if (books[mid][key] < valueToFind.toLowerCase()) {
+    } else if (books[mid][key] < valueToFind) {
       start = mid + 1;
     } else {
       end = mid - 1;
