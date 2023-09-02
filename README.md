@@ -23,7 +23,7 @@ funcion ordenamientoBurbuja(lista)
 	fin mientras
 ```
 https://www.toptal.com/developers/sorting-algorithms
-## Busqueda Binaria
+## Binary Search (Busqueda Binaria)
 La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en una lista ordenada. Supone que la lista ya está ordenada y la divide repetidamente a la mitad hasta que encuentra el elemento o reduce el tamaño del segmento a cero.
 
 ### Instrucciones
