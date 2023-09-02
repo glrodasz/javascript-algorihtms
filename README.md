@@ -2,7 +2,7 @@
 
 El algoritmo de ordenación "Bubble Sort" es uno de los algoritmos de ordenación más simples. El concepto principal detrás de Bubble Sort es repetidamente "burbujear" o "flotar" el elemento más grande de la lista al final, hasta que toda la lista esté ordenada.
 
-## Intrucciones
+### Intrucciones
 
 1. Comienza en el primer elemento de la lista con el siguiente.
 2. Si el elemento actual es mayor que el siguiente, intercambia sus posiciones.
@@ -10,6 +10,8 @@ El algoritmo de ordenación "Bubble Sort" es uno de los algoritmos de ordenació
 4. Al final del primer paso, el elemento más grande estará en la última posición de la lista.
 5. Repite todo el proceso para la lista, excluyendo el último elemento.
 6. Continúa repitiendo el proceso, excluyendo cada vez un elemento más (desde el final), hasta que no haya más elementos que comprobar.
+
+### Psudocódigo
 
 ```
 funcion ordenamientoBurbuja(lista)
@@ -38,6 +40,8 @@ La búsqueda binaria es un algoritmo eficiente para encontrar un elemento en una
 3. Si el valor del elemento central es mayor que el elemento, se toma la mitad inferior de la lista y se repite el proceso desde el paso 1.
 4. Si el valor del elemento central es menor que el elemento, se toma la mitad superior de la lista y se repite el proceso desde el paso 1.
 5. Si el elemento no se encuentra en la lista, se devuelve un mensaje de error.
+
+### Psudocódigo
 
 ```
 función busquedaBinaria(lista, elemento)
